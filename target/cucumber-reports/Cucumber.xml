@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="16" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="16" time="24.971185">
+<testcase classname="Receive DB Docs soft-copies from INS" name="Check if POST request with invalid Claim Id" time="4.932685">
+<failure message="org.junit.ComparisonFailure: expected:&lt;[invalid claim ]id&gt; but was:&lt;[data inval]id&gt;&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:115)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:144)&#13;&#10;&#9;at stepDefinitions.ValidationSteps.iGetReturnMsg(ValidationSteps.java:55)&#13;&#10;&#9;at ✽.Then I get returnMsg &quot;invalid Claim Id&quot;(src/test/resources/Feature/DocSoftCopyAPI.feature:14)&#13;&#10;"><![CDATA[Given I already authorozied.................................................passed
+When I call API "20210305725tyy", "3810588879", "12345", "1", "1", "1"......passed
+Then I get response code 406................................................passed
+Then I get returnMsg "invalid Claim Id".....................................failed
+
+StackTrace:
+org.junit.ComparisonFailure: expected:<[invalid claim ]id> but was:<[data inval]id>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at stepDefinitions.ValidationSteps.iGetReturnMsg(ValidationSteps.java:55)
+	at ✽.Then I get returnMsg "invalid Claim Id"(src/test/resources/Feature/DocSoftCopyAPI.feature:14)
+]]></failure>
+</testcase>
+<testcase classname="Receive DB Docs soft-copies from INS" name="Check if POST request with Empty Claim Id" time="1.362807">
+<failure message="org.junit.ComparisonFailure: expected:&lt;[empty claim ]id&gt; but was:&lt;[data inval]id&gt;&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:115)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:144)&#13;&#10;&#9;at stepDefinitions.ValidationSteps.iGetReturnMsg(ValidationSteps.java:55)&#13;&#10;&#9;at ✽.Then I get returnMsg &quot;empty Claim Id&quot;(src/test/resources/Feature/DocSoftCopyAPI.feature:26)&#13;&#10;"><![CDATA[Given I already authorozied.................................................passed
+When I call API "", "2855718084", "12345", "1", "1", "1"....................passed
+Then I get response code 406................................................passed
+Then I get returnMsg "empty Claim Id".......................................failed
+
+StackTrace:
+org.junit.ComparisonFailure: expected:<[empty claim ]id> but was:<[data inval]id>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at stepDefinitions.ValidationSteps.iGetReturnMsg(ValidationSteps.java:55)
+	at ✽.Then I get returnMsg "empty Claim Id"(src/test/resources/Feature/DocSoftCopyAPI.feature:26)
+]]></failure>
+</testcase>
+<testcase classname="Receive DB Docs soft-copies from INS" name="Check if POST request with Claim Status not Pending" time="1.404715">
+<failure message="java.lang.AssertionError: expected:&lt;406&gt; but was:&lt;503&gt;&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:88)&#13;&#10;&#9;at org.junit.Assert.failNotEquals(Assert.java:834)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:645)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:631)&#13;&#10;&#9;at stepDefinitions.ValidationSteps.iGetResponseCode(ValidationSteps.java:46)&#13;&#10;&#9;at ✽.Then I get response code 406(src/test/resources/Feature/DocSoftCopyAPI.feature:37)&#13;&#10;"><![CDATA[Given I already authorozied.................................................passed
+When I call API "I20210202201", "3817094202", "12345", "1", "1", "1"........passed
+Then I get response code 406................................................failed
+Then I get returnMsg "claim status is not pending"..........................skipped
+
+StackTrace:
+java.lang.AssertionError: expected:<406> but was:<503>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at stepDefinitions.ValidationSteps.iGetResponseCode(ValidationSteps.java:46)
+	at ✽.Then I get response code 406(src/test/resources/Feature/DocSoftCopyAPI.feature:37)
+]]></failure>
+</testcase>
+<testcase classname="Receive DB Docs soft-copies from INS" name="Check if POST request with Claim Status not Pending 2" time="1.381851">
+<failure message="java.lang.AssertionError: expected:&lt;406&gt; but was:&lt;503&gt;&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:88)&#13;&#10;&#9;at org.junit.Assert.failNotEquals(Assert.java:834)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:645)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:631)&#13;&#10;&#9;at stepDefinitions.ValidationSteps.iGetResponseCode(ValidationSteps.java:46)&#13;&#10;&#9;at ✽.Then I get response code 406(src/test/resources/Feature/DocSoftCopyAPI.feature:37)&#13;&#10;"><![CDATA[Given I already authorozied.................................................passed
+When I call API "I20210202202", "2814793251", "12345", "1", "1", "1"........passed
+Then I get response code 406................................................failed
+Then I get returnMsg "claim status is not pending"..........................skipped
+
+StackTrace:
+java.lang.AssertionError: expected:<406> but was:<503>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at stepDefinitions.ValidationSteps.iGetResponseCode(ValidationSteps.java:46)
+	at ✽.Then I get response code 406(src/test/resources/Feature/DocSoftCopyAPI.feature:37)
+]]></failure>
+</testcase>
+<testcase classname="Receive DB Docs soft-copies from INS" name="Check if POST request with invalid policyNumber" time="1.418642">
+<failure message="java.lang.AssertionError: expected:&lt;406&gt; but was:&lt;503&gt;&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:88)&#13;&#10;&#9;at org.junit.Assert.failNotEquals(Assert.java:834)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:645)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:631)&#13;&#10;&#9;at stepDefinitions.ValidationSteps.iGetResponseCode(ValidationSteps.java:46)&#13;&#10;&#9;at ✽.Then I get response code 406(src/test/resources/Feature/DocSoftCopyAPI.feature:51)&#13;&#10;"><![CDATA[Given I already authorozied.................................................passed
+When I call API "202103057250", "1", "12345", "1", "1", "1".................passed
+Then I get response code 406................................................failed
+Then I get returnMsg "invalid policyNumber".................................skipped
+
+StackTrace:
+java.lang.AssertionError: expected:<406> but was:<503>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at stepDefinitions.ValidationSteps.iGetResponseCode(ValidationSteps.java:46)
+	at ✽.Then I get response code 406(src/test/resources/Feature/DocSoftCopyAPI.feature:51)
+]]></failure>
+</testcase>
+<testcase classname="Receive DB Docs soft-copies from INS" name="Check if POST request with invalid policyNumber 2" time="1.331404">
+<failure message="java.lang.AssertionError: expected:&lt;406&gt; but was:&lt;503&gt;&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:88)&#13;&#10;&#9;at org.junit.Assert.failNotEquals(Assert.java:834)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:645)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:631)&#13;&#10;&#9;at stepDefinitions.ValidationSteps.iGetResponseCode(ValidationSteps.java:46)&#13;&#10;&#9;at ✽.Then I get response code 406(src/test/resources/Feature/DocSoftCopyAPI.feature:51)&#13;&#10;"><![CDATA[Given I already authorozied.................................................passed
+When I call API "202103057250", "38105888aa", "12345", "1", "1", "1"........passed
+Then I get response code 406................................................failed
+Then I get returnMsg "invalid policyNumber".................................skipped
+
+StackTrace:
+java.lang.AssertionError: expected:<406> but was:<503>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at stepDefinitions.ValidationSteps.iGetResponseCode(ValidationSteps.java:46)
+	at ✽.Then I get response code 406(src/test/resources/Feature/DocSoftCopyAPI.feature:51)
+]]></failure>
+</testcase>
+<testcase classname="Receive DB Docs soft-copies from INS" name="Check if POST request with invalid policyNumber 3" time="1.283844">
+<failure message="org.junit.ComparisonFailure: expected:&lt;[invalid policynumber]&gt; but was:&lt;[data invalid]&gt;&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:115)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:144)&#13;&#10;&#9;at stepDefinitions.ValidationSteps.iGetReturnMsg(ValidationSteps.java:55)&#13;&#10;&#9;at ✽.Then I get returnMsg &quot;invalid policyNumber&quot;(src/test/resources/Feature/DocSoftCopyAPI.feature:52)&#13;&#10;"><![CDATA[Given I already authorozied.................................................passed
+When I call API "202103057250", "381058888888", "12345", "1", "1", "1"......passed
+Then I get response code 406................................................passed
+Then I get returnMsg "invalid policyNumber".................................failed
+
+StackTrace:
+org.junit.ComparisonFailure: expected:<[invalid policynumber]> but was:<[data invalid]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at stepDefinitions.ValidationSteps.iGetReturnMsg(ValidationSteps.java:55)
+	at ✽.Then I get returnMsg "invalid policyNumber"(src/test/resources/Feature/DocSoftCopyAPI.feature:52)
+]]></failure>
+</testcase>
+<testcase classname="Receive DB Docs soft-copies from INS" name="Check if send request with empty policyNumber" time="1.357306">
+<failure message="org.junit.ComparisonFailure: expected:&lt;[empty doc]id&gt; but was:&lt;[data inval]id&gt;&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:115)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:144)&#13;&#10;&#9;at stepDefinitions.ValidationSteps.iGetReturnMsg(ValidationSteps.java:55)&#13;&#10;&#9;at ✽.Then I get returnMsg &quot;empty docId&quot;(src/test/resources/Feature/DocSoftCopyAPI.feature:67)&#13;&#10;"><![CDATA[Given I already authorozied.................................................passed
+When I call API "202103081236", "", "3345", "1", "1", "1"...................passed
+Then I get response code 406................................................passed
+Then I get returnMsg "empty docId"..........................................failed
+
+StackTrace:
+org.junit.ComparisonFailure: expected:<[empty doc]id> but was:<[data inval]id>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at stepDefinitions.ValidationSteps.iGetReturnMsg(ValidationSteps.java:55)
+	at ✽.Then I get returnMsg "empty docId"(src/test/resources/Feature/DocSoftCopyAPI.feature:67)
+]]></failure>
+</testcase>
+<testcase classname="Receive DB Docs soft-copies from INS" name="Check if send request with empty docId" time="1.307036">
+<failure message="org.junit.ComparisonFailure: expected:&lt;[empty policy number]&gt; but was:&lt;[data invalid]&gt;&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:115)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:144)&#13;&#10;&#9;at stepDefinitions.ValidationSteps.iGetReturnMsg(ValidationSteps.java:55)&#13;&#10;&#9;at ✽.Then I get returnMsg &quot;empty policy number&quot;(src/test/resources/Feature/DocSoftCopyAPI.feature:80)&#13;&#10;"><![CDATA[Given I already authorozied.................................................passed
+When I call API "202103081236", "2855718084", "", "1", "1", "1".............passed
+Then I get response code 406................................................passed
+Then I get returnMsg "empty policy number"..................................failed
+
+StackTrace:
+org.junit.ComparisonFailure: expected:<[empty policy number]> but was:<[data invalid]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at stepDefinitions.ValidationSteps.iGetReturnMsg(ValidationSteps.java:55)
+	at ✽.Then I get returnMsg "empty policy number"(src/test/resources/Feature/DocSoftCopyAPI.feature:80)
+]]></failure>
+</testcase>
+<testcase classname="Receive DB Docs soft-copies from INS" name="Check if send request with empty boxNo" time="1.240355">
+<failure message="org.junit.ComparisonFailure: expected:&lt;[empty boxno]&gt; but was:&lt;[data invalid]&gt;&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:115)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:144)&#13;&#10;&#9;at stepDefinitions.ValidationSteps.iGetReturnMsg(ValidationSteps.java:55)&#13;&#10;&#9;at ✽.Then I get returnMsg &quot;empty boxNo&quot;(src/test/resources/Feature/DocSoftCopyAPI.feature:93)&#13;&#10;"><![CDATA[Given I already authorozied.................................................passed
+When I call API "202103081236", "2855718084", "12345", "", "1", "1".........passed
+Then I get response code 406................................................passed
+Then I get returnMsg "empty boxNo"..........................................failed
+
+StackTrace:
+org.junit.ComparisonFailure: expected:<[empty boxno]> but was:<[data invalid]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at stepDefinitions.ValidationSteps.iGetReturnMsg(ValidationSteps.java:55)
+	at ✽.Then I get returnMsg "empty boxNo"(src/test/resources/Feature/DocSoftCopyAPI.feature:93)
+]]></failure>
+</testcase>
+<testcase classname="Receive DB Docs soft-copies from INS" name="Check if send request with empty posision" time="1.271346">
+<failure message="org.junit.ComparisonFailure: expected:&lt;[empty posision]&gt; but was:&lt;[data invalid]&gt;&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:115)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:144)&#13;&#10;&#9;at stepDefinitions.ValidationSteps.iGetReturnMsg(ValidationSteps.java:55)&#13;&#10;&#9;at ✽.Then I get returnMsg &quot;empty posision&quot;(src/test/resources/Feature/DocSoftCopyAPI.feature:105)&#13;&#10;"><![CDATA[Given I already authorozied.................................................passed
+When I call API "202103081236", "2855718084", "12345", "1", "", "1".........passed
+Then I get response code 406................................................passed
+Then I get returnMsg "empty posision".......................................failed
+
+StackTrace:
+org.junit.ComparisonFailure: expected:<[empty posision]> but was:<[data invalid]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at stepDefinitions.ValidationSteps.iGetReturnMsg(ValidationSteps.java:55)
+	at ✽.Then I get returnMsg "empty posision"(src/test/resources/Feature/DocSoftCopyAPI.feature:105)
+]]></failure>
+</testcase>
+<testcase classname="Receive DB Docs soft-copies from INS" name="Check if send request with empty totalFiles" time="1.249552">
+<failure message="org.junit.ComparisonFailure: expected:&lt;[empty totalfiles]&gt; but was:&lt;[data invalid]&gt;&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:115)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:144)&#13;&#10;&#9;at stepDefinitions.ValidationSteps.iGetReturnMsg(ValidationSteps.java:55)&#13;&#10;&#9;at ✽.Then I get returnMsg &quot;empty totalFiles&quot;(src/test/resources/Feature/DocSoftCopyAPI.feature:119)&#13;&#10;"><![CDATA[Given I already authorozied.................................................passed
+When I call API "202103080110", "2819774058", "12345", "1", "1", "".........passed
+Then I get response code 406................................................passed
+Then I get returnMsg "empty totalFiles".....................................failed
+
+StackTrace:
+org.junit.ComparisonFailure: expected:<[empty totalfiles]> but was:<[data invalid]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at stepDefinitions.ValidationSteps.iGetReturnMsg(ValidationSteps.java:55)
+	at ✽.Then I get returnMsg "empty totalFiles"(src/test/resources/Feature/DocSoftCopyAPI.feature:119)
+]]></failure>
+</testcase>
+<testcase classname="Receive DB Docs soft-copies from INS" name="Check if POST request with valid Parameters" time="1.384289">
+<failure message="java.lang.AssertionError: expected:&lt;200&gt; but was:&lt;503&gt;&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:88)&#13;&#10;&#9;at org.junit.Assert.failNotEquals(Assert.java:834)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:645)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:631)&#13;&#10;&#9;at stepDefinitions.ValidationSteps.iGetResponseCode(ValidationSteps.java:46)&#13;&#10;&#9;at ✽.Then I get response code 200(src/test/resources/Feature/DocSoftCopyAPI.feature:131)&#13;&#10;"><![CDATA[Given I already authorozied.................................................passed
+When I call API "202103057171", "2814256754", "12345", "11", "1", "1".......passed
+Then I get response code 200................................................failed
+Then I get returnMsg "Success"..............................................skipped
+
+StackTrace:
+java.lang.AssertionError: expected:<200> but was:<503>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at stepDefinitions.ValidationSteps.iGetResponseCode(ValidationSteps.java:46)
+	at ✽.Then I get response code 200(src/test/resources/Feature/DocSoftCopyAPI.feature:131)
+]]></failure>
+</testcase>
+<testcase classname="Receive DB Docs soft-copies from INS" name="Check if POST request with valid Parameters 2" time="1.343385">
+<failure message="java.lang.AssertionError: expected:&lt;200&gt; but was:&lt;503&gt;&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:88)&#13;&#10;&#9;at org.junit.Assert.failNotEquals(Assert.java:834)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:645)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:631)&#13;&#10;&#9;at stepDefinitions.ValidationSteps.iGetResponseCode(ValidationSteps.java:46)&#13;&#10;&#9;at ✽.Then I get response code 200(src/test/resources/Feature/DocSoftCopyAPI.feature:131)&#13;&#10;"><![CDATA[Given I already authorozied.................................................passed
+When I call API "202103057944", "2952309739", "12346", "12", "1", "1".......passed
+Then I get response code 200................................................failed
+Then I get returnMsg "Success"..............................................skipped
+
+StackTrace:
+java.lang.AssertionError: expected:<200> but was:<503>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at stepDefinitions.ValidationSteps.iGetResponseCode(ValidationSteps.java:46)
+	at ✽.Then I get response code 200(src/test/resources/Feature/DocSoftCopyAPI.feature:131)
+]]></failure>
+</testcase>
+<testcase classname="Receive DB Docs soft-copies from INS" name="Check if POST request with valid Parameters 3" time="1.365209">
+<failure message="java.lang.AssertionError: expected:&lt;200&gt; but was:&lt;503&gt;&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:88)&#13;&#10;&#9;at org.junit.Assert.failNotEquals(Assert.java:834)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:645)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:631)&#13;&#10;&#9;at stepDefinitions.ValidationSteps.iGetResponseCode(ValidationSteps.java:46)&#13;&#10;&#9;at ✽.Then I get response code 200(src/test/resources/Feature/DocSoftCopyAPI.feature:131)&#13;&#10;"><![CDATA[Given I already authorozied.................................................passed
+When I call API "202103080470", "2815539950", "12347", "13", "1", "1".......passed
+Then I get response code 200................................................failed
+Then I get returnMsg "Success"..............................................skipped
+
+StackTrace:
+java.lang.AssertionError: expected:<200> but was:<503>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at stepDefinitions.ValidationSteps.iGetResponseCode(ValidationSteps.java:46)
+	at ✽.Then I get response code 200(src/test/resources/Feature/DocSoftCopyAPI.feature:131)
+]]></failure>
+</testcase>
+<testcase classname="Receive DB Docs soft-copies from INS" name="Check if POST request with valid Parameters 4" time="1.336759">
+<failure message="java.lang.AssertionError: expected:&lt;200&gt; but was:&lt;503&gt;&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:88)&#13;&#10;&#9;at org.junit.Assert.failNotEquals(Assert.java:834)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:645)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:631)&#13;&#10;&#9;at stepDefinitions.ValidationSteps.iGetResponseCode(ValidationSteps.java:46)&#13;&#10;&#9;at ✽.Then I get response code 200(src/test/resources/Feature/DocSoftCopyAPI.feature:131)&#13;&#10;"><![CDATA[Given I already authorozied.................................................passed
+When I call API "202103081236", "2855718084", "12348", "14", "1", "1".......passed
+Then I get response code 200................................................failed
+Then I get returnMsg "Success"..............................................skipped
+
+StackTrace:
+java.lang.AssertionError: expected:<200> but was:<503>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at stepDefinitions.ValidationSteps.iGetResponseCode(ValidationSteps.java:46)
+	at ✽.Then I get response code 200(src/test/resources/Feature/DocSoftCopyAPI.feature:131)
+]]></failure>
+</testcase>
+</testsuite>
