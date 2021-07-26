@@ -132,11 +132,11 @@ Scenario Outline: Check if POST request with Empty Claim Id
     Then I get returnMsg "<returnMsg>"
 
     Examples: 
-      | clmId 				    | policyNumber |docId	|  boxNo  |posision| totalFiles | statusCode  |returnMsg			|
-      | 202103057171    | 2814256754   |12345	|  11 			|1			 | 1 				  | 200 			  |Success				|
-      | 202103057944    | 2952309739   |12346	|  12 			|1			 | 1 				  | 200 			  |Success				|
-      | 202103080470    | 2815539950   |12347	|  13				|1			 | 1 				  | 200 			  |Success				|
-      | 202103081236    | 2855718084   |12348	|  14				|1			 | 1 				  | 200 			  |Success				|
+      | clmId 				    | policyNumber |docId	|  boxNo  			|posision| totalFiles | statusCode  |returnMsg			|
+      | I20210304543    | 3810588879   |12345	|  INS21072400001 |1			 | 1 				  | 200 			  |Success				|
+      | 202103057250    | 3810588879   |12346	|  INS21072400002 |1			 | 1 				  | 200 			  |Success				|
+      | 202103080470    | 2815539950   |12347	|  INS21072400003	|1			 | 1 				  | 200 			  |Success				|
+      | 202103081236    | 2855718084   |12348	|  INS21072400004	|1			 | 1 				  | 200 			  |Success				|
  
     
     

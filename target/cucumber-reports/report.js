@@ -131,7 +131,7 @@ formatter.match({
   "location": "ValidationSteps.iAlreadyAuthorozied()"
 });
 formatter.result({
-  "duration": 3622421600,
+  "duration": 3169782400,
   "status": "passed"
 });
 formatter.match({
@@ -164,7 +164,7 @@ formatter.match({
   "location": "ValidationSteps.iCallAPI(String,String,String,String,String,String)"
 });
 formatter.result({
-  "duration": 1299449400,
+  "duration": 1318981900,
   "status": "passed"
 });
 formatter.match({
@@ -177,7 +177,7 @@ formatter.match({
   "location": "ValidationSteps.iGetResponseCode(int)"
 });
 formatter.result({
-  "duration": 2442900,
+  "duration": 1852100,
   "status": "passed"
 });
 formatter.match({
@@ -190,7 +190,7 @@ formatter.match({
   "location": "ValidationSteps.iGetReturnMsg(String)"
 });
 formatter.result({
-  "duration": 8371100,
+  "duration": 10217700,
   "error_message": "org.junit.ComparisonFailure: expected:\u003c[invalid claim ]id\u003e but was:\u003c[data inval]id\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat stepDefinitions.ValidationSteps.iGetReturnMsg(ValidationSteps.java:55)\r\n\tat ✽.Then I get returnMsg \"invalid Claim Id\"(src/test/resources/Feature/DocSoftCopyAPI.feature:14)\r\n",
   "status": "failed"
 });
@@ -311,7 +311,7 @@ formatter.match({
   "location": "ValidationSteps.iAlreadyAuthorozied()"
 });
 formatter.result({
-  "duration": 314957800,
+  "duration": 314378200,
   "status": "passed"
 });
 formatter.match({
@@ -344,7 +344,7 @@ formatter.match({
   "location": "ValidationSteps.iCallAPI(String,String,String,String,String,String)"
 });
 formatter.result({
-  "duration": 1037504800,
+  "duration": 899774200,
   "status": "passed"
 });
 formatter.match({
@@ -357,7 +357,7 @@ formatter.match({
   "location": "ValidationSteps.iGetResponseCode(int)"
 });
 formatter.result({
-  "duration": 103300,
+  "duration": 101700,
   "status": "passed"
 });
 formatter.match({
@@ -370,7 +370,7 @@ formatter.match({
   "location": "ValidationSteps.iGetReturnMsg(String)"
 });
 formatter.result({
-  "duration": 10240800,
+  "duration": 8179800,
   "error_message": "org.junit.ComparisonFailure: expected:\u003c[empty claim ]id\u003e but was:\u003c[data inval]id\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat stepDefinitions.ValidationSteps.iGetReturnMsg(ValidationSteps.java:55)\r\n\tat ✽.Then I get returnMsg \"empty Claim Id\"(src/test/resources/Feature/DocSoftCopyAPI.feature:26)\r\n",
   "status": "failed"
 });
@@ -505,7 +505,7 @@ formatter.match({
   "location": "ValidationSteps.iAlreadyAuthorozied()"
 });
 formatter.result({
-  "duration": 310251800,
+  "duration": 276989700,
   "status": "passed"
 });
 formatter.match({
@@ -538,7 +538,7 @@ formatter.match({
   "location": "ValidationSteps.iCallAPI(String,String,String,String,String,String)"
 });
 formatter.result({
-  "duration": 1092991200,
+  "duration": 2684178100,
   "status": "passed"
 });
 formatter.match({
@@ -551,8 +551,8 @@ formatter.match({
   "location": "ValidationSteps.iGetResponseCode(int)"
 });
 formatter.result({
-  "duration": 1471700,
-  "error_message": "java.lang.AssertionError: expected:\u003c406\u003e but was:\u003c503\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\r\n\tat org.junit.Assert.assertEquals(Assert.java:645)\r\n\tat org.junit.Assert.assertEquals(Assert.java:631)\r\n\tat stepDefinitions.ValidationSteps.iGetResponseCode(ValidationSteps.java:46)\r\n\tat ✽.Then I get response code 406(src/test/resources/Feature/DocSoftCopyAPI.feature:37)\r\n",
+  "duration": 885200,
+  "error_message": "java.lang.AssertionError: expected:\u003c406\u003e but was:\u003c200\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\r\n\tat org.junit.Assert.assertEquals(Assert.java:645)\r\n\tat org.junit.Assert.assertEquals(Assert.java:631)\r\n\tat stepDefinitions.ValidationSteps.iGetResponseCode(ValidationSteps.java:46)\r\n\tat ✽.Then I get response code 406(src/test/resources/Feature/DocSoftCopyAPI.feature:37)\r\n",
   "status": "failed"
 });
 formatter.match({
@@ -613,7 +613,7 @@ formatter.match({
   "location": "ValidationSteps.iAlreadyAuthorozied()"
 });
 formatter.result({
-  "duration": 317800800,
+  "duration": 289881600,
   "status": "passed"
 });
 formatter.match({
@@ -646,7 +646,7 @@ formatter.match({
   "location": "ValidationSteps.iCallAPI(String,String,String,String,String,String)"
 });
 formatter.result({
-  "duration": 1063759800,
+  "duration": 2038494800,
   "status": "passed"
 });
 formatter.match({
@@ -659,8 +659,8 @@ formatter.match({
   "location": "ValidationSteps.iGetResponseCode(int)"
 });
 formatter.result({
-  "duration": 290700,
-  "error_message": "java.lang.AssertionError: expected:\u003c406\u003e but was:\u003c503\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\r\n\tat org.junit.Assert.assertEquals(Assert.java:645)\r\n\tat org.junit.Assert.assertEquals(Assert.java:631)\r\n\tat stepDefinitions.ValidationSteps.iGetResponseCode(ValidationSteps.java:46)\r\n\tat ✽.Then I get response code 406(src/test/resources/Feature/DocSoftCopyAPI.feature:37)\r\n",
+  "duration": 218500,
+  "error_message": "java.lang.AssertionError: expected:\u003c406\u003e but was:\u003c200\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\r\n\tat org.junit.Assert.assertEquals(Assert.java:645)\r\n\tat org.junit.Assert.assertEquals(Assert.java:631)\r\n\tat stepDefinitions.ValidationSteps.iGetResponseCode(ValidationSteps.java:46)\r\n\tat ✽.Then I get response code 406(src/test/resources/Feature/DocSoftCopyAPI.feature:37)\r\n",
   "status": "failed"
 });
 formatter.match({
@@ -820,7 +820,7 @@ formatter.match({
   "location": "ValidationSteps.iAlreadyAuthorozied()"
 });
 formatter.result({
-  "duration": 293150300,
+  "duration": 280030600,
   "status": "passed"
 });
 formatter.match({
@@ -853,7 +853,7 @@ formatter.match({
   "location": "ValidationSteps.iCallAPI(String,String,String,String,String,String)"
 });
 formatter.result({
-  "duration": 1125232700,
+  "duration": 3483315300,
   "status": "passed"
 });
 formatter.match({
@@ -866,8 +866,8 @@ formatter.match({
   "location": "ValidationSteps.iGetResponseCode(int)"
 });
 formatter.result({
-  "duration": 259300,
-  "error_message": "java.lang.AssertionError: expected:\u003c406\u003e but was:\u003c503\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\r\n\tat org.junit.Assert.assertEquals(Assert.java:645)\r\n\tat org.junit.Assert.assertEquals(Assert.java:631)\r\n\tat stepDefinitions.ValidationSteps.iGetResponseCode(ValidationSteps.java:46)\r\n\tat ✽.Then I get response code 406(src/test/resources/Feature/DocSoftCopyAPI.feature:51)\r\n",
+  "duration": 441600,
+  "error_message": "java.lang.AssertionError: expected:\u003c406\u003e but was:\u003c200\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\r\n\tat org.junit.Assert.assertEquals(Assert.java:645)\r\n\tat org.junit.Assert.assertEquals(Assert.java:631)\r\n\tat stepDefinitions.ValidationSteps.iGetResponseCode(ValidationSteps.java:46)\r\n\tat ✽.Then I get response code 406(src/test/resources/Feature/DocSoftCopyAPI.feature:51)\r\n",
   "status": "failed"
 });
 formatter.match({
@@ -928,7 +928,7 @@ formatter.match({
   "location": "ValidationSteps.iAlreadyAuthorozied()"
 });
 formatter.result({
-  "duration": 292523800,
+  "duration": 291586500,
   "status": "passed"
 });
 formatter.match({
@@ -961,7 +961,7 @@ formatter.match({
   "location": "ValidationSteps.iCallAPI(String,String,String,String,String,String)"
 });
 formatter.result({
-  "duration": 1038665400,
+  "duration": 2072896900,
   "status": "passed"
 });
 formatter.match({
@@ -974,8 +974,8 @@ formatter.match({
   "location": "ValidationSteps.iGetResponseCode(int)"
 });
 formatter.result({
-  "duration": 214600,
-  "error_message": "java.lang.AssertionError: expected:\u003c406\u003e but was:\u003c503\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\r\n\tat org.junit.Assert.assertEquals(Assert.java:645)\r\n\tat org.junit.Assert.assertEquals(Assert.java:631)\r\n\tat stepDefinitions.ValidationSteps.iGetResponseCode(ValidationSteps.java:46)\r\n\tat ✽.Then I get response code 406(src/test/resources/Feature/DocSoftCopyAPI.feature:51)\r\n",
+  "duration": 324400,
+  "error_message": "java.lang.AssertionError: expected:\u003c406\u003e but was:\u003c200\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\r\n\tat org.junit.Assert.assertEquals(Assert.java:645)\r\n\tat org.junit.Assert.assertEquals(Assert.java:631)\r\n\tat stepDefinitions.ValidationSteps.iGetResponseCode(ValidationSteps.java:46)\r\n\tat ✽.Then I get response code 406(src/test/resources/Feature/DocSoftCopyAPI.feature:51)\r\n",
   "status": "failed"
 });
 formatter.match({
@@ -1036,7 +1036,7 @@ formatter.match({
   "location": "ValidationSteps.iAlreadyAuthorozied()"
 });
 formatter.result({
-  "duration": 292646400,
+  "duration": 279381400,
   "status": "passed"
 });
 formatter.match({
@@ -1069,7 +1069,7 @@ formatter.match({
   "location": "ValidationSteps.iCallAPI(String,String,String,String,String,String)"
 });
 formatter.result({
-  "duration": 982856200,
+  "duration": 965666100,
   "status": "passed"
 });
 formatter.match({
@@ -1082,7 +1082,7 @@ formatter.match({
   "location": "ValidationSteps.iGetResponseCode(int)"
 });
 formatter.result({
-  "duration": 104600,
+  "duration": 135900,
   "status": "passed"
 });
 formatter.match({
@@ -1095,7 +1095,7 @@ formatter.match({
   "location": "ValidationSteps.iGetReturnMsg(String)"
 });
 formatter.result({
-  "duration": 8236400,
+  "duration": 9183300,
   "error_message": "org.junit.ComparisonFailure: expected:\u003c[invalid policynumber]\u003e but was:\u003c[data invalid]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat stepDefinitions.ValidationSteps.iGetReturnMsg(ValidationSteps.java:55)\r\n\tat ✽.Then I get returnMsg \"invalid policyNumber\"(src/test/resources/Feature/DocSoftCopyAPI.feature:52)\r\n",
   "status": "failed"
 });
@@ -1216,7 +1216,7 @@ formatter.match({
   "location": "ValidationSteps.iAlreadyAuthorozied()"
 });
 formatter.result({
-  "duration": 296839000,
+  "duration": 277354800,
   "status": "passed"
 });
 formatter.match({
@@ -1249,7 +1249,7 @@ formatter.match({
   "location": "ValidationSteps.iCallAPI(String,String,String,String,String,String)"
 });
 formatter.result({
-  "duration": 1053172000,
+  "duration": 971507000,
   "status": "passed"
 });
 formatter.match({
@@ -1262,7 +1262,7 @@ formatter.match({
   "location": "ValidationSteps.iGetResponseCode(int)"
 });
 formatter.result({
-  "duration": 92000,
+  "duration": 82100,
   "status": "passed"
 });
 formatter.match({
@@ -1275,7 +1275,7 @@ formatter.match({
   "location": "ValidationSteps.iGetReturnMsg(String)"
 });
 formatter.result({
-  "duration": 7202600,
+  "duration": 7428300,
   "error_message": "org.junit.ComparisonFailure: expected:\u003c[empty doc]id\u003e but was:\u003c[data inval]id\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat stepDefinitions.ValidationSteps.iGetReturnMsg(ValidationSteps.java:55)\r\n\tat ✽.Then I get returnMsg \"empty docId\"(src/test/resources/Feature/DocSoftCopyAPI.feature:67)\r\n",
   "status": "failed"
 });
@@ -1396,7 +1396,7 @@ formatter.match({
   "location": "ValidationSteps.iAlreadyAuthorozied()"
 });
 formatter.result({
-  "duration": 315596700,
+  "duration": 283871200,
   "status": "passed"
 });
 formatter.match({
@@ -1429,7 +1429,7 @@ formatter.match({
   "location": "ValidationSteps.iCallAPI(String,String,String,String,String,String)"
 });
 formatter.result({
-  "duration": 973292200,
+  "duration": 901696200,
   "status": "passed"
 });
 formatter.match({
@@ -1442,7 +1442,7 @@ formatter.match({
   "location": "ValidationSteps.iGetResponseCode(int)"
 });
 formatter.result({
-  "duration": 311100,
+  "duration": 110300,
   "status": "passed"
 });
 formatter.match({
@@ -1455,7 +1455,7 @@ formatter.match({
   "location": "ValidationSteps.iGetReturnMsg(String)"
 });
 formatter.result({
-  "duration": 17835500,
+  "duration": 8318800,
   "error_message": "org.junit.ComparisonFailure: expected:\u003c[empty policy number]\u003e but was:\u003c[data invalid]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat stepDefinitions.ValidationSteps.iGetReturnMsg(ValidationSteps.java:55)\r\n\tat ✽.Then I get returnMsg \"empty policy number\"(src/test/resources/Feature/DocSoftCopyAPI.feature:80)\r\n",
   "status": "failed"
 });
@@ -1576,7 +1576,7 @@ formatter.match({
   "location": "ValidationSteps.iAlreadyAuthorozied()"
 });
 formatter.result({
-  "duration": 289053000,
+  "duration": 277780700,
   "status": "passed"
 });
 formatter.match({
@@ -1609,7 +1609,7 @@ formatter.match({
   "location": "ValidationSteps.iCallAPI(String,String,String,String,String,String)"
 });
 formatter.result({
-  "duration": 942045900,
+  "duration": 1047767700,
   "status": "passed"
 });
 formatter.match({
@@ -1622,7 +1622,7 @@ formatter.match({
   "location": "ValidationSteps.iGetResponseCode(int)"
 });
 formatter.result({
-  "duration": 95100,
+  "duration": 100800,
   "status": "passed"
 });
 formatter.match({
@@ -1635,7 +1635,7 @@ formatter.match({
   "location": "ValidationSteps.iGetReturnMsg(String)"
 });
 formatter.result({
-  "duration": 9160900,
+  "duration": 8820300,
   "error_message": "org.junit.ComparisonFailure: expected:\u003c[empty boxno]\u003e but was:\u003c[data invalid]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat stepDefinitions.ValidationSteps.iGetReturnMsg(ValidationSteps.java:55)\r\n\tat ✽.Then I get returnMsg \"empty boxNo\"(src/test/resources/Feature/DocSoftCopyAPI.feature:93)\r\n",
   "status": "failed"
 });
@@ -1756,7 +1756,7 @@ formatter.match({
   "location": "ValidationSteps.iAlreadyAuthorozied()"
 });
 formatter.result({
-  "duration": 285800800,
+  "duration": 298978500,
   "status": "passed"
 });
 formatter.match({
@@ -1789,7 +1789,7 @@ formatter.match({
   "location": "ValidationSteps.iCallAPI(String,String,String,String,String,String)"
 });
 formatter.result({
-  "duration": 977238400,
+  "duration": 887505900,
   "status": "passed"
 });
 formatter.match({
@@ -1802,7 +1802,7 @@ formatter.match({
   "location": "ValidationSteps.iGetResponseCode(int)"
 });
 formatter.result({
-  "duration": 144600,
+  "duration": 79800,
   "status": "passed"
 });
 formatter.match({
@@ -1815,7 +1815,7 @@ formatter.match({
   "location": "ValidationSteps.iGetReturnMsg(String)"
 });
 formatter.result({
-  "duration": 8162100,
+  "duration": 7070000,
   "error_message": "org.junit.ComparisonFailure: expected:\u003c[empty posision]\u003e but was:\u003c[data invalid]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat stepDefinitions.ValidationSteps.iGetReturnMsg(ValidationSteps.java:55)\r\n\tat ✽.Then I get returnMsg \"empty posision\"(src/test/resources/Feature/DocSoftCopyAPI.feature:105)\r\n",
   "status": "failed"
 });
@@ -1936,7 +1936,7 @@ formatter.match({
   "location": "ValidationSteps.iAlreadyAuthorozied()"
 });
 formatter.result({
-  "duration": 290094200,
+  "duration": 275853700,
   "status": "passed"
 });
 formatter.match({
@@ -1969,7 +1969,7 @@ formatter.match({
   "location": "ValidationSteps.iCallAPI(String,String,String,String,String,String)"
 });
 formatter.result({
-  "duration": 952479900,
+  "duration": 1328728500,
   "status": "passed"
 });
 formatter.match({
@@ -1982,7 +1982,7 @@ formatter.match({
   "location": "ValidationSteps.iGetResponseCode(int)"
 });
 formatter.result({
-  "duration": 103000,
+  "duration": 93100,
   "status": "passed"
 });
 formatter.match({
@@ -1995,7 +1995,7 @@ formatter.match({
   "location": "ValidationSteps.iGetReturnMsg(String)"
 });
 formatter.result({
-  "duration": 6875100,
+  "duration": 8942100,
   "error_message": "org.junit.ComparisonFailure: expected:\u003c[empty totalfiles]\u003e but was:\u003c[data invalid]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat stepDefinitions.ValidationSteps.iGetReturnMsg(ValidationSteps.java:55)\r\n\tat ✽.Then I get returnMsg \"empty totalFiles\"(src/test/resources/Feature/DocSoftCopyAPI.feature:119)\r\n",
   "status": "failed"
 });
@@ -2055,10 +2055,10 @@ formatter.examples({
     },
     {
       "cells": [
-        "202103057171",
-        "2814256754",
+        "I20210304543",
+        "3810588879",
         "12345",
-        "11",
+        "INS21072400001",
         "1",
         "1",
         "200",
@@ -2069,10 +2069,10 @@ formatter.examples({
     },
     {
       "cells": [
-        "202103057944",
-        "2952309739",
+        "202103057250",
+        "3810588879",
         "12346",
-        "12",
+        "INS21072400002",
         "1",
         "1",
         "200",
@@ -2086,7 +2086,7 @@ formatter.examples({
         "202103080470",
         "2815539950",
         "12347",
-        "13",
+        "INS21072400003",
         "1",
         "1",
         "200",
@@ -2100,7 +2100,7 @@ formatter.examples({
         "202103081236",
         "2855718084",
         "12348",
-        "14",
+        "INS21072400004",
         "1",
         "1",
         "200",
@@ -2127,7 +2127,7 @@ formatter.step({
 });
 formatter.step({
   "line": 130,
-  "name": "I call API \"202103057171\", \"2814256754\", \"12345\", \"11\", \"1\", \"1\"",
+  "name": "I call API \"I20210304543\", \"3810588879\", \"12345\", \"INS21072400001\", \"1\", \"1\"",
   "matchedColumns": [
     0,
     1,
@@ -2158,17 +2158,17 @@ formatter.match({
   "location": "ValidationSteps.iAlreadyAuthorozied()"
 });
 formatter.result({
-  "duration": 319634900,
+  "duration": 337603200,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "202103057171",
+      "val": "I20210304543",
       "offset": 12
     },
     {
-      "val": "2814256754",
+      "val": "3810588879",
       "offset": 28
     },
     {
@@ -2176,22 +2176,22 @@ formatter.match({
       "offset": 42
     },
     {
-      "val": "11",
+      "val": "INS21072400001",
       "offset": 51
     },
     {
       "val": "1",
-      "offset": 57
+      "offset": 69
     },
     {
       "val": "1",
-      "offset": 62
+      "offset": 74
     }
   ],
   "location": "ValidationSteps.iCallAPI(String,String,String,String,String,String)"
 });
 formatter.result({
-  "duration": 1064428500,
+  "duration": 2641322000,
   "status": "passed"
 });
 formatter.match({
@@ -2204,9 +2204,8 @@ formatter.match({
   "location": "ValidationSteps.iGetResponseCode(int)"
 });
 formatter.result({
-  "duration": 225800,
-  "error_message": "java.lang.AssertionError: expected:\u003c200\u003e but was:\u003c503\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\r\n\tat org.junit.Assert.assertEquals(Assert.java:645)\r\n\tat org.junit.Assert.assertEquals(Assert.java:631)\r\n\tat stepDefinitions.ValidationSteps.iGetResponseCode(ValidationSteps.java:46)\r\n\tat ✽.Then I get response code 200(src/test/resources/Feature/DocSoftCopyAPI.feature:131)\r\n",
-  "status": "failed"
+  "duration": 115400,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -2218,7 +2217,8 @@ formatter.match({
   "location": "ValidationSteps.iGetReturnMsg(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 7103000,
+  "status": "passed"
 });
 formatter.scenario({
   "line": 137,
@@ -2235,7 +2235,7 @@ formatter.step({
 });
 formatter.step({
   "line": 130,
-  "name": "I call API \"202103057944\", \"2952309739\", \"12346\", \"12\", \"1\", \"1\"",
+  "name": "I call API \"202103057250\", \"3810588879\", \"12346\", \"INS21072400002\", \"1\", \"1\"",
   "matchedColumns": [
     0,
     1,
@@ -2266,17 +2266,17 @@ formatter.match({
   "location": "ValidationSteps.iAlreadyAuthorozied()"
 });
 formatter.result({
-  "duration": 296487700,
+  "duration": 287983500,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "202103057944",
+      "val": "202103057250",
       "offset": 12
     },
     {
-      "val": "2952309739",
+      "val": "3810588879",
       "offset": 28
     },
     {
@@ -2284,22 +2284,22 @@ formatter.match({
       "offset": 42
     },
     {
-      "val": "12",
+      "val": "INS21072400002",
       "offset": 51
     },
     {
       "val": "1",
-      "offset": 57
+      "offset": 69
     },
     {
       "val": "1",
-      "offset": 62
+      "offset": 74
     }
   ],
   "location": "ValidationSteps.iCallAPI(String,String,String,String,String,String)"
 });
 formatter.result({
-  "duration": 1046676400,
+  "duration": 2228479700,
   "status": "passed"
 });
 formatter.match({
@@ -2312,9 +2312,8 @@ formatter.match({
   "location": "ValidationSteps.iGetResponseCode(int)"
 });
 formatter.result({
-  "duration": 221000,
-  "error_message": "java.lang.AssertionError: expected:\u003c200\u003e but was:\u003c503\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\r\n\tat org.junit.Assert.assertEquals(Assert.java:645)\r\n\tat org.junit.Assert.assertEquals(Assert.java:631)\r\n\tat stepDefinitions.ValidationSteps.iGetResponseCode(ValidationSteps.java:46)\r\n\tat ✽.Then I get response code 200(src/test/resources/Feature/DocSoftCopyAPI.feature:131)\r\n",
-  "status": "failed"
+  "duration": 78500,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -2326,7 +2325,8 @@ formatter.match({
   "location": "ValidationSteps.iGetReturnMsg(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 8307700,
+  "status": "passed"
 });
 formatter.scenario({
   "line": 138,
@@ -2343,7 +2343,7 @@ formatter.step({
 });
 formatter.step({
   "line": 130,
-  "name": "I call API \"202103080470\", \"2815539950\", \"12347\", \"13\", \"1\", \"1\"",
+  "name": "I call API \"202103080470\", \"2815539950\", \"12347\", \"INS21072400003\", \"1\", \"1\"",
   "matchedColumns": [
     0,
     1,
@@ -2374,7 +2374,7 @@ formatter.match({
   "location": "ValidationSteps.iAlreadyAuthorozied()"
 });
 formatter.result({
-  "duration": 293302900,
+  "duration": 314941800,
   "status": "passed"
 });
 formatter.match({
@@ -2392,22 +2392,22 @@ formatter.match({
       "offset": 42
     },
     {
-      "val": "13",
+      "val": "INS21072400003",
       "offset": 51
     },
     {
       "val": "1",
-      "offset": 57
+      "offset": 69
     },
     {
       "val": "1",
-      "offset": 62
+      "offset": 74
     }
   ],
   "location": "ValidationSteps.iCallAPI(String,String,String,String,String,String)"
 });
 formatter.result({
-  "duration": 1071087600,
+  "duration": 1937895100,
   "status": "passed"
 });
 formatter.match({
@@ -2420,9 +2420,8 @@ formatter.match({
   "location": "ValidationSteps.iGetResponseCode(int)"
 });
 formatter.result({
-  "duration": 818800,
-  "error_message": "java.lang.AssertionError: expected:\u003c200\u003e but was:\u003c503\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\r\n\tat org.junit.Assert.assertEquals(Assert.java:645)\r\n\tat org.junit.Assert.assertEquals(Assert.java:631)\r\n\tat stepDefinitions.ValidationSteps.iGetResponseCode(ValidationSteps.java:46)\r\n\tat ✽.Then I get response code 200(src/test/resources/Feature/DocSoftCopyAPI.feature:131)\r\n",
-  "status": "failed"
+  "duration": 72000,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -2434,7 +2433,8 @@ formatter.match({
   "location": "ValidationSteps.iGetReturnMsg(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 7135600,
+  "status": "passed"
 });
 formatter.scenario({
   "line": 139,
@@ -2451,7 +2451,7 @@ formatter.step({
 });
 formatter.step({
   "line": 130,
-  "name": "I call API \"202103081236\", \"2855718084\", \"12348\", \"14\", \"1\", \"1\"",
+  "name": "I call API \"202103081236\", \"2855718084\", \"12348\", \"INS21072400004\", \"1\", \"1\"",
   "matchedColumns": [
     0,
     1,
@@ -2482,7 +2482,7 @@ formatter.match({
   "location": "ValidationSteps.iAlreadyAuthorozied()"
 });
 formatter.result({
-  "duration": 297362200,
+  "duration": 367133900,
   "status": "passed"
 });
 formatter.match({
@@ -2500,22 +2500,22 @@ formatter.match({
       "offset": 42
     },
     {
-      "val": "14",
+      "val": "INS21072400004",
       "offset": 51
     },
     {
       "val": "1",
-      "offset": 57
+      "offset": 69
     },
     {
       "val": "1",
-      "offset": 62
+      "offset": 74
     }
   ],
   "location": "ValidationSteps.iCallAPI(String,String,String,String,String,String)"
 });
 formatter.result({
-  "duration": 1038928400,
+  "duration": 2018170600,
   "status": "passed"
 });
 formatter.match({
@@ -2528,9 +2528,8 @@ formatter.match({
   "location": "ValidationSteps.iGetResponseCode(int)"
 });
 formatter.result({
-  "duration": 468100,
-  "error_message": "java.lang.AssertionError: expected:\u003c200\u003e but was:\u003c503\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\r\n\tat org.junit.Assert.assertEquals(Assert.java:645)\r\n\tat org.junit.Assert.assertEquals(Assert.java:631)\r\n\tat stepDefinitions.ValidationSteps.iGetResponseCode(ValidationSteps.java:46)\r\n\tat ✽.Then I get response code 200(src/test/resources/Feature/DocSoftCopyAPI.feature:131)\r\n",
-  "status": "failed"
+  "duration": 281100,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -2542,6 +2541,7 @@ formatter.match({
   "location": "ValidationSteps.iGetReturnMsg(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 7841400,
+  "status": "passed"
 });
 });
